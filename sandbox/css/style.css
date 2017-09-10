@@ -1,0 +1,339 @@
+body {
+  position: relative;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.navbar {
+  margin-bottom: 0;
+}
+
+.navbar-brand {
+  padding: 5px;
+  height: 70px;
+}
+
+.navbar-brand>img {
+  height: 100%;
+}
+
+.navbar-nav {
+  font-size: 16px;
+}
+
+@media (min-width: 768px) {
+  .navbar-nav>li>a {
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+}
+
+
+.header-image {
+  position: relative;
+  height: 521px;
+  width: 100%;
+  background: #444;
+}
+
+.header-image::before{
+  content: ' ';
+  background: url(../cityscape.jpeg);
+  background-position: center -196px;
+  height: 100%;
+  width: 100%;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-size: 1715px;
+  opacity: 0.9;
+}
+
+.header-image h1{
+  z-index: 2;
+  position: relative;
+  color: #fff;
+  margin: 0;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 60px;
+}
+
+.header-image p {
+  z-index: 2;
+  position: relative;
+  color: #fff;
+  font-size: 20px;
+  padding-top: 10px;
+  width: 400px;
+}
+
+.body-container {
+  width: 1100px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.header-image .left-side {
+  float: left;
+  width: 620px;
+  text-align: left;
+  padding-top: 55px;
+}
+
+.header-image .right-side {
+  float: right;
+  width: 400px;
+  height: 446px;
+  background-color: rgba(255, 255, 255, 0.9);
+  z-index: 2;
+  position: relative;
+  margin-top: 40px;
+  margin-right: 65px;
+  border-radius: 2px;
+  padding: 20px;
+}
+
+.navbar-right .speak {
+  padding: 24px;
+}
+
+.header-image .form-control {
+  border-radius: 2px;
+  height: 40px;
+}
+
+#associated {
+  overflow: hidden;
+  height: 69px;
+  margin: 166px 0 0 0;
+  z-index: 2;
+  position: relative;
+  background-color: rgba(255,255,255,0.9);
+  float: left;
+}
+
+h2 {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  text-align: center;
+  color: #652700;
+  margin: 0;
+}
+
+h3 {
+  margin-top: 0;
+  color: #0e4fa9;
+}
+
+.item-container {
+  width: 33%;
+  display: inline-block;
+  vertical-align: top;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.how-it-works .item-container i {
+  vertical-align: top;
+  margin-top: 3px;
+  font-size: 40px;
+  color: #0e4fa9;
+}
+
+.item-container p {
+  width: 90%;
+  font-size: 16px;
+  margin: 15px auto;
+}
+
+.how-it-works {
+  padding-bottom: 40px;
+}
+
+.featured-destinations {
+  padding-bottom: 40px;
+}
+
+.why-go-fly {
+  background-color: #f8f8f8;
+  padding-bottom: 40px;
+}
+
+.travel-item {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 31%;
+  display: inline-block;
+  margin: 0 10px 20px;
+  position: relative;
+  vertical-align: top;
+}
+
+.travel-item img {
+  background-color: #ccc;
+  width: 100%;
+  height: 200px;
+}
+
+.travel-item .location {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #fff;
+  font-size: 36px;
+  margin: 0 auto;
+  width: 100%;
+  padding-top: 66px;
+}
+
+.travel-item .location-label {
+  float: left;
+  padding: 8px;
+  font-size: 16px;
+}
+
+.travel-item .cost {
+  float: right;
+  padding: 8px;
+  font-size: 16px;
+  color: #57b457;
+}
+
+.travel-item .cost span {
+  text-decoration: line-through;
+  color: #df8080;
+}
+
+.testimonials {
+  background-color: #f8f8f8;
+  padding-bottom: 40px;
+  font-size: 16px;
+  position: relative;
+}
+
+.testimonials .description {
+  display: inline;
+}
+
+.testimonials i, .testimonials p {
+  display: inline;
+}
+
+.testimonials .fa-quote-left {
+  position: absolute;
+  top: 0;
+  left: -26px;
+}
+
+.testimonials .fa-quote-right {
+  vertical-align: -6px;
+}
+
+.testimonials i {
+  padding: 0 4px;
+}
+
+.testimonials .body-container > div {
+  margin: 0 auto 30px;
+  max-width: 600px;
+  text-align: left;
+  line-height: 26px;
+  position: relative;
+}
+
+.testimonials .author {
+  margin-top: 10px;
+  display: block;
+  font-size: 14px;
+  text-align: right;
+}
+
+#footer {
+  background-color: #42619B;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: #fff;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+#footer ul {
+  float: left;
+  text-align: left;
+  padding-left: 55px;
+}
+
+#footer li{
+  list-style: none;
+}
+
+#footer a {
+  color: #fff;
+}
+
+#footer .flag-icon {
+  font-size: 28px;
+  border-radius: 3px;
+  margin-right: 4px;
+  vertical-align: -5px
+}
+
+#footer i {
+  font-size: 28px;
+  width: 40px;
+  text-align: center;
+  vertical-align: -3px;
+}
+
+#footer .flags {
+  line-height: 34px;
+}
+
+#footer .social-media {
+  float: right;
+  text-align: right;
+}
+
+#footer h3 {
+  color: #fff;
+  font-size: 20px;
+  padding-right: 2px;
+}
+
+.logo-section {
+  float: left;
+  text-align: left;
+  margin-right: 30px;
+}
+
+.logo-section img {
+  margin-bottom: 20px;
+}
+
+.logo-section * {
+  margin-bottom: 8px;
+  display: block;
+}
+
+.clearfix:after {
+  content: " "; /* Older browser do not support empty content */
+  visibility: hidden;
+  display: block;
+  height: 0;
+  clear: both;
+}
+
+body.about .header-image {
+  height: 300px;
+}
+
+body.about .header-image:before {
+  background-position: 0 -340px;
+}
+
+.content .body-container{
+  font-size: 16px;
+  text-align: left;
+  margin-bottom: 80px;
+}
