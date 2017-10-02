@@ -35,21 +35,55 @@ p {
 #header {
     background: url(./coverphoto.jpg);
     background-size: 1050px;
-    min-height: 375px;
-    background-position: 100% -96px;
+    min-height: 450px;
+    background-position: 100% -44px;
     padding-top: 0px;
     color: #fff;
+    position:relative;
+}
+#header .mask {
+	background-color: rgba(1, 32, 120, 0.76);
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	width: 100%;
 }
 #header .wrapper {
-    color: #444;
+    color: #fff;
+    position: relative;
 }
 #header .wrapper > div {
-	background: rgba(255,255,255,.6);
     width: 500px;
     padding: 15px;
-    margin-top: 40px;
+    margin-top: 140px;
 }
 
+#summary .summary-item {
+	width: 33%;
+	display: inline-block;
+	vertical-align: top;
+	text-align: center;
+	padding-top: 40px;
+}
+
+#summary .summary-item h3 {
+	font-size: 18px;
+	color: #eca44a;
+}
+#summary .summary-item p {
+    padding: 0 20px;
+    color: #a2a2a2;
+}
+#summary.section-container {
+	padding-bottom: 30px;
+}
+#summary .icon-box {
+	box-shadow: 0 1px 4px #444;
+	height: 100px;
+	width: 100px;
+	border-radius: 100px;
+	display: inline-block;
+}
 #services {
 	background-color: #444;
 	color: #eee;
